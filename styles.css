@@ -1,0 +1,53 @@
+/* styles.css */
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #888;
+    background-color: #222;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#p5canvas {
+  height: 75%;
+}
+
+#dashboard {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em;
+  height: 25%
+}
+
+.sliders {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 2em;
+  width: 50%;
+  height: 100%;
+}
+
+.sliders input {
+  width: 100%
+}
+
+.buttons {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.buttons button {
+  padding: 1rem;
+  border-radius: 3px;
+  margin: 1em;
+}
